@@ -1,12 +1,5 @@
-# Twitter as a Sidebar
+# Image Properties
 
-## What it does
+![Webextension showing image properties](screenshot.jpg)
 
-Allows it to run [Twitter lite](https://mobile.twitter.com) as a sidebar on your browser.
-
-## Screenshot
-
-![screenshot](screenshot.png)
-
-## Icon
-[Icon by Neil Heinsworth](https://www.iconfinder.com/icons/107056/blue_twitter_icon#size=512)
+This webextension adds a contextual menu that displays EXIF data for JPEGs
