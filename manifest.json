@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "Image Properties",
+  "description": "Displays image metadata.",
+  "version": "1.0",
+
+  "content_security_policy": "script-src 'self'; object-src 'self'; img-src *;",
+
+  "icons": {
+    "512": "images/camera.svg"
+  },
+
+  
+  "background": {
+    "scripts": ["background.js"]
+},
+
+  "permissions": [
+    "<all_urls>",
+    "storage", 
+    "tabs", 
+    "menus", 
+    "activeTab"
+  ]
+
+}
